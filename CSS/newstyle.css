@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.header{
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    
+}
+div.sub-header{
+    margin-left: 200px; 
+} 
+
+div.sub-header .list{
+    display: flex;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 150px;
+    list-style: none;
+    
+}
+
+div.sub-header .list li{
+    margin-left: 30px;
+}
+
+div#etinz{
+    width: 90px;
+    margin-left: 7px;
+}
+
+/* div.icons{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 80%;
+    display: flex;
+    flex-direction: row;
+} */
+div.fa-solid{
+    color: blue;
+}
+
+div.banner h2{
+    text-transform: capitalize;
+    font-size: 22px;
+    text-align: center;
+}
+div#banner{
+    display: flex;
+    width: 80%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    gap: 25px;
+
+}
+
+div#banner p{
+    font-size: 15px;
+}
+div.banner{
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+
+div#banner2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-left: 70px;
+    text-align: center;
+}
+
+
+div#banner3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin-left: 70px;
+    text-align: center;
+}
+
+
+div#footer{
+    background-color: black;
+    height: 350px; 
+    position: relative;
+    margin: 0 20px;
+}
+
+div#footer{
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.left-side{
+    margin: 15px 0 0 15px;
+    
+}
+
+.right-side{ 
+    margin: 15px 0 0 0;
+    
+}
+
+div#advert{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform:translateX(-50%);
+    
+}
